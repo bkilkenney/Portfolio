@@ -94,29 +94,62 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\thumbs\01.jpg" />
+    <Content Include="images\thumbs\02.jpg" />
+    <Content Include="images\thumbs\03.jpg" />
+    <Content Include="images\thumbs\04.jpg" />
+    <Content Include="images\thumbs\05.jpg" />
+    <Content Include="images\thumbs\06.jpg" />
+    <Content Include="images\avatar.jpg" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="assests\css\font-awesome.min.css" />
+    <Content Include="assests\fonts\fontawesome-webfont.svg" />
+    <Content Include="assests\css\ie8.css" />
+    <Content Include="assests\css\main.css" />
+    <Content Include="assests\css\images\overlay.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="assests\fonts\fontawesome-webfont.eot" />
+    <Content Include="assests\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assests\fonts\fontawesome-webfont.woff" />
+    <Content Include="assests\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assests\fonts\FontAwesome.otf" />
+    <Content Include="assests\sass\ie8.scss" />
+    <Content Include="assests\sass\main.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="assests\sass\libs\_functions.scss" />
+    <Content Include="assests\sass\libs\_mixins.scss" />
+    <Content Include="assests\sass\libs\_skel.scss" />
+    <Content Include="assests\sass\libs\_vars.scss" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="scripts\JavaScript.js" />
-    <Content Include="scripts\ai.0.22.19-build00125.js" />
-    <Content Include="scripts\ai.0.22.19-build00125.min.js" />
-    <Content Include="scripts\jquery-3.1.1.js" />
-    <Content Include="scripts\StyleSheet1.css" />
+    <Content Include="backgroundsize.min.htc" />
+    <Content Include="assests\js\html5shiv.js" />
+    <Content Include="assests\js\JavaScript.js" />
+    <Content Include="assests\js\ai.0.22.19-build00125.js" />
+    <Content Include="assests\js\ai.0.22.19-build00125.min.js" />
+    <Content Include="assests\js\jquery-3.1.1.js" />
+    <Content Include="assests\js\jquery.min.js" />
+    <Content Include="assests\js\jquery.poptrox.min.js" />
+    <Content Include="assests\js\main.js" />
+    <Content Include="PIE.htc" />
+    <Content Include="assests\js\respond.min.js" />
+    <Content Include="assests\js\skel.min.js" />
+    <Content Include="assests\js\util.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
