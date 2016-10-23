@@ -125,6 +125,7 @@
     <Content Include="assests\sass\ie8.scss" />
     <Content Include="assests\sass\main.scss" />
     <Content Include="images\Untitled.xcf" />
+    <Content Include="assests\Kilkenney Brad Resume Draft Oct 1 2016.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
