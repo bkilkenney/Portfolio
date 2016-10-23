@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\HeadShot_2388.JPG" />
+    <Content Include="images\MoviesMVC.PNG" />
     <Content Include="images\photo-pro.jpg" />
     <Content Include="images\thumbs\01.jpg" />
     <Content Include="images\thumbs\02.jpg" />
@@ -109,6 +110,7 @@
     <Content Include="assests\css\ie8.css" />
     <Content Include="assests\css\main.css" />
     <Content Include="assests\css\images\overlay.png" />
+    <Content Include="images\BankAccount.PNG" />
     <Content Include="images\TravelSite.PNG" />
     <Content Include="images\WardrobeApp.PNG" />
     <Content Include="packages.config" />
